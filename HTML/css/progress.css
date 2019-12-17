@@ -1,4 +1,4 @@
-/*@import url(https://fonts.googleapis.com/css?family=Lato:700);
+/* /* @import url(https://fonts.googleapis.com/css?family=Lato:700);
 *,
 *:before,
 *:after {
@@ -36,12 +36,13 @@ body {
 }
 .pie-wrapper .pie {
   height: 100%;
-  width: 100%; /*width: 100%;*/
+  width: 100%; /*width: 100%;*
   clip: rect(0, 1em, 1em, 0.5em);
   left: 0;
   position: absolute;
   top: 0;
 }
+*/
 .pie-wrapper .pie .half-circle {
   height: 100%;
   width: 100%;
@@ -86,6 +87,24 @@ body {
 .pie-wrapper.style-2 .label .smaller {
   color: #bdc3c7;
 }
+
+
+/* progress-14 */
+
+.pie-wrapper.progress-14 .pie .half-circle {
+  border-color: #db1223;
+}
+.pie-wrapper.progress-14 .pie .left-side {
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+.pie-wrapper.progress-14 .pie .right-side {
+  display: none;
+}
+
+
+
+
 .pie-wrapper.progress-30 .pie .half-circle {
   border-color: #3498db;
 }
@@ -100,7 +119,7 @@ body {
   clip: rect(auto, auto, auto, auto);
 }
 .pie-wrapper.progress-60 .pie .half-circle {
-  border-color: #9b59b6;
+  border-color: #ffdd59;
 }
 .pie-wrapper.progress-60 .pie .left-side {
   -webkit-transform: rotate(216deg);
@@ -110,6 +129,28 @@ body {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
+
+/*       progress-63         */
+
+
+.pie-wrapper.progress-63 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper.progress-63 .pie .half-circle {
+  border-color: #9b59b6;
+}
+.pie-wrapper.progress-63 .pie .left-side {
+  -webkit-transform: rotate(226deg);
+          transform: rotate(226deg);
+}
+.pie-wrapper.progress-63 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+
+
+
 .pie-wrapper.progress-90 .pie {
   clip: rect(auto, auto, auto, auto);
 }
@@ -125,7 +166,7 @@ body {
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-45 .pie .half-circle {
-  border-color: #1abc9c;
+  border-color: #ffd658;
 }
 .pie-wrapper.progress-45 .pie .left-side {
   -webkit-transform: rotate(162deg);
@@ -161,6 +202,25 @@ body {
 .pie-wrapper.progress-95 .pie .right-side {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+/* 100% progress */
+.pie-wrapper.progress-100 .pie .left-side {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+/* 100% progress */
+.pie-wrapper.progress-100 .pie .right-side {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.pie-wrapper.progress-100 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper.progress-100 .pie .half-circle {
+  border-color: #e74c3c;
 }
 
 .pie-wrapper--solid {
@@ -206,14 +266,15 @@ body {
 /*progress bar sidebar*/
 .set-size.charts-container {
   width: 200px;
+  margin: auto;
 }
 
-*/
+
 
 
 
 /* ----------------------------------- */
-
+/*
 .progress{
     width: 150px;
     height: 150px;
@@ -362,4 +423,4 @@ body {
 }
 @media only screen and (max-width: 990px){
     .progress{ margin-bottom: 20px; }
-}
+} */

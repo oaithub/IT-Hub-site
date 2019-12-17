@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:700);
+/* @import url(https://fonts.googleapis.com/css?family=Lato:700);
 *,
 *:before,
 *:after {
@@ -7,12 +7,11 @@
 
 html,
 body {
-  background: #ecf0f1;
+  background: #fff;
   color: #444;
   font-family: "Lato", Tahoma, Geneva, sans-serif;
   font-size: 16px;
-  padding: 10px;
-}
+} */
 
 .set-size {
   font-size: 10em;
@@ -76,15 +75,16 @@ body {
 .pie-wrapper .shadow {
   height: 100%;
   width: 100%;
-  border: 0.1em solid #bdc3c7;
+  border: 0.1em solid #fff;
   border-radius: 50%;
+
 }
 .pie-wrapper.style-2 .label {
   background: none;
-  color: #7f8c8d;
+  color: #000;
 }
 .pie-wrapper.style-2 .label .smaller {
-  color: #bdc3c7;
+  color: #000;
 }
 .pie-wrapper.progress-30 .pie .half-circle {
   border-color: #3498db;
@@ -114,7 +114,7 @@ body {
   clip: rect(auto, auto, auto, auto);
 }
 .pie-wrapper.progress-90 .pie .half-circle {
-  border-color: #e67e22;
+  border-color: #ffd658;
 }
 .pie-wrapper.progress-90 .pie .left-side {
   -webkit-transform: rotate(324deg);
@@ -125,7 +125,7 @@ body {
           transform: rotate(180deg);
 }
 .pie-wrapper.progress-45 .pie .half-circle {
-  border-color: #1abc9c;
+  border-color: #ffc222;
 }
 .pie-wrapper.progress-45 .pie .left-side {
   -webkit-transform: rotate(162deg);
@@ -163,6 +163,22 @@ body {
           transform: rotate(180deg);
 }
 
+/* 100% progress */
+.pie-wrapper.progress-100 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper.progress-100 .pie .half-circle {
+  border-color: #ffc222;
+}
+.pie-wrapper.progress-100 .pie .left-side {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.pie-wrapper.progress-100 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .pie-wrapper--solid {
   border-radius: 50%;
   overflow: hidden;
@@ -187,6 +203,7 @@ body {
   -webkit-transform: rotate(126deg);
           transform: rotate(126deg);
 }
+
 .pie-wrapper--solid.progress-25 {
   background: linear-gradient(to right, #9b59b6 50%, #34495e 50%);
 }
