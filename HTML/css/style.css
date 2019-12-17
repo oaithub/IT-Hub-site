@@ -628,7 +628,7 @@ a.fa:focus{
 }
 
 .section-content{
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .spacer,
@@ -2883,6 +2883,29 @@ font-family: 'Fira Sans', sans-serif;
 .pie-wrapper.progress-30 .pie .right-side {
   display: none;
 }
+
+.pie-wrapper.progress-20 .pie .half-circle {
+  border-color: #068f3f;
+}
+.pie-wrapper.progress-20 .pie .left-side {
+  -webkit-transform: rotate(72deg);
+          transform: rotate(72deg);
+}
+.pie-wrapper.progress-20 .pie .right-side {
+  display: none;
+}
+
+.pie-wrapper.progress-10 .pie .half-circle {
+  border-color: #db811a;
+}
+.pie-wrapper.progress-10 .pie .left-side {
+  -webkit-transform: rotate(36deg);
+          transform: rotate(36deg);
+}
+.pie-wrapper.progress-10 .pie .right-side {
+  display: none;
+}
+
 .pie-wrapper.progress-60 .pie {
   clip: rect(auto, auto, auto, auto);
 }
@@ -2911,6 +2934,23 @@ font-family: 'Fira Sans', sans-serif;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
+
+.pie-wrapper.progress-80 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper.progress-80 .pie .half-circle {
+  border-color: #ffd658;
+}
+.pie-wrapper.progress-80 .pie .left-side {
+  -webkit-transform: rotate(288deg);
+          transform: rotate(288deg);
+}
+.pie-wrapper.progress-80 .pie .right-side {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+
 .pie-wrapper.progress-45 .pie .half-circle {
   border-color: #ffc222;
 }
@@ -2999,6 +3039,16 @@ font-family: 'Fira Sans', sans-serif;
   -webkit-transform: rotate(-270deg);
           transform: rotate(-270deg);
 }
+
+.pie-wrapper--solid.progress-20 {
+  background: linear-gradient(to right, #9b59b6 50%, #34495e 50%);
+}
+.pie-wrapper--solid.progress-20:before {
+  background: #34495e;
+  -webkit-transform: rotate(-240deg);
+          transform: rotate(-240deg);
+}
+
 .pie-wrapper--solid.progress-88 {
   background: linear-gradient(to right, #3498db 50%, #34495e 50%);
 }
