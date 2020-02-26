@@ -2676,18 +2676,17 @@ img.mfp-img {
 }
 
 
+@media (max-width: 992px){
+  .tp-splitted .tp-linesplit{
+    font-size: 10px;
+  }
 
+}
 /* 14.2 Min width 992px */
-
-
 
 @media (min-width: 992px) {
 
-
-
   /* Content styles */
-
-
 
   .md-pull-right {
     float: right;
@@ -2973,7 +2972,7 @@ img.mfp-img {
 }
 
 .pie-wrapper.progress-90 .pie .half-circle {
-  border-color: #ffd658;
+  border-color: #068f3f;
 }
 
 .pie-wrapper.progress-90 .pie .left-side {

@@ -279,6 +279,15 @@ body {
   width: 200px;
   margin: auto;
 }
+.pie-wrapper.progress-50 .pie .half-circle {
+  border-color: #db1223;
+}
+.pie-wrapper.progress-50 .pie .left-side {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.pie-wrapper.progress-50 .pie .right-side {
+  display: none;
 
 
 
