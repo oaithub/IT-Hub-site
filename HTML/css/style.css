@@ -2360,7 +2360,9 @@ img.mfp-img {
 /*  13. Modals
 /* ------------------------------------------------------------------------------- */
 
-
+a:hover {
+  text-decoration: none;
+}
 
 .modal-open {
   overflow: visible;
@@ -2392,6 +2394,7 @@ img.mfp-img {
   vertical-align: middle;
   width: 90%;
   margin: 25px auto;
+  
 }
 
 .modal-content {
@@ -2402,6 +2405,7 @@ img.mfp-img {
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
+   
 }
 
 .modal.fade .modal-dialog {
@@ -2431,7 +2435,7 @@ img.mfp-img {
   50% {
     -webkit-transform: translateZ(-250px) rotateY(60deg);
     opacity: .5;
-    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;  
   }
 
   100% {
@@ -2439,6 +2443,7 @@ img.mfp-img {
     opacity: 1;
   }
 }
+
 
 @-moz-keyframes slit {
   50% {
@@ -2671,7 +2676,7 @@ img.mfp-img {
   }
 
   .modal-dialog {
-    width: 550px;
+    width: 798px;
   }
 }
 
