@@ -90,6 +90,16 @@ body {
 
 
 /* progress-14 */
+.pie-wrapper.progress-5 .pie .half-circle {
+  border-color: #df5211;
+}
+.pie-wrapper.progress-5 .pie .left-side {
+  -webkit-transform: rotate(17deg);
+          transform: rotate(17deg);
+}
+.pie-wrapper.progress-5 .pie .right-side {
+  display: none;
+}
 
 .pie-wrapper.progress-14 .pie .half-circle {
   border-color: #db1223;
@@ -102,9 +112,17 @@ body {
   display: none;
 }
 
+.pie-wrapper.progress-25 .pie .half-circle {
+  border-color: #11d1df;
+}
+.pie-wrapper.progress-25 .pie .left-side {
+  -webkit-transform: rotate(-270deg);
+          transform: rotate(-270deg);
+}
+.pie-wrapper.progress-25 .pie .right-side {
+  display: none;
 
-
-
+}
 .pie-wrapper.progress-30 .pie .half-circle {
   border-color: #3498db;
 }
@@ -247,14 +265,7 @@ body {
   -webkit-transform: rotate(126deg);
           transform: rotate(126deg);
 }
-.pie-wrapper--solid.progress-25 {
-  background: linear-gradient(to right, #9b59b6 50%, #34495e 50%);
-}
-.pie-wrapper--solid.progress-25:before {
-  background: #34495e;
-  -webkit-transform: rotate(-270deg);
-          transform: rotate(-270deg);
-}
+
 
 .pie-wrapper--solid.progress-20 {
   background: linear-gradient(to right, #9b59b6 50%, #34495e 50%);
